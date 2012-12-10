@@ -34,3 +34,15 @@ rm -rf %{buildroot}
 %{_bindir}/lightdm-webkit-greeter
 %{_datadir}/lightdm-webkit
 %{_datadir}/xgreeters/lightdm-webkit-greeter.desktop
+
+
+%changelog
+* Sun Mar 25 2012 Tomasz Pawel Gajc <tpg@mandriva.org> 0.1.2-2
++ Revision: 786643
+- spec file clean
+- rebuild for new lightdm
+
+* Fri Mar 02 2012 Matthew Dawkins <mattydaw@mandriva.org> 0.1.2-1
++ Revision: 781829
+- imported package lightdm-webkit-greeter
+
