@@ -1,7 +1,7 @@
 Summary:	LightDM Webkit Greeter
 Name:		lightdm-webkit-greeter
 Version:	0.1.2
-Release:	4
+Release:	5
 Group:		System/X11
 License:	GPLv3
 URL:		https://launchpad.net/lightdm-webkit-greeter
