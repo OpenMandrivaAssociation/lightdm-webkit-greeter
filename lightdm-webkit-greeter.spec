@@ -1,16 +1,18 @@
+%define _disable_rebuild_configure 1
+
 Summary:	LightDM Webkit Greeter
 Name:		lightdm-webkit-greeter
-Version:	0.1.2
-Release:	8
+Version:	1.0
+Release:	1
 Group:		System/X11
 License:	GPLv3
 URL:		https://launchpad.net/lightdm-webkit-greeter
 Source0:	https://launchpad.net/lightdm-webkit-greeter/+download/%{name}-%{version}.tar.gz
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(dbus-glib-1)
-BuildRequires:	pkgconfig(gtk+-2.0)
+BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	pkgconfig(liblightdm-gobject-1)
-BuildRequires:	pkgconfig(webkit-1.0)
+BuildRequires:	pkgconfig(webkitgtk-3.0)
 Provides:	lightdm-greeter
 
 %description
@@ -20,10 +22,9 @@ A LightDM greeter that uses the Webkit 1.0.
 %setup -q
 
 %build
-%configure2_5x \
-	--disable-static
+%configure
 
-%make LIBS='-ljavascriptcoregtk-1.0'
+%make
 
 %install
 rm -rf %{buildroot}
