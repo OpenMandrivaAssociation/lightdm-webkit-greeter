@@ -35,7 +35,7 @@ rm -rf %{buildroot}
 %{_bindir}/lightdm-webkit-greeter
 %{_datadir}/lightdm-webkit
 %{_datadir}/xgreeters/lightdm-webkit-greeter.desktop
-
+%{_mandir}/man1/%{name}.1.*
 
 %changelog
 * Sun Mar 25 2012 Tomasz Pawel Gajc <tpg@mandriva.org> 0.1.2-2
