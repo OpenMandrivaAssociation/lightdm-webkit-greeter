@@ -1,4 +1,5 @@
 removed_sources:
   lightdm-webkit-greeter-0.1.2.tar.gz: 4f19b635aab5cb747eec7a612e9647e34e21a6f2
-sources:
   lightdm-webkit-greeter-1.0.tar.gz: 86d05014732fba1a662e35d74c00092714ee594b
+sources:
+  lightdm-webkit-greeter-2.0.0.tar.gz: 866ef1144836249a378b4796e9201c263517cf56
