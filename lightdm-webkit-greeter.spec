@@ -7,7 +7,7 @@ Release:	1
 Group:		System/X11
 License:	GPLv3
 URL:		https://launchpad.net/lightdm-webkit-greeter
-Source0:	https://launchpad.net/lightdm-webkit-greeter/+download/%{name}-%{version}.tar.gz
+Source0:	 https://launchpad.net/%{name}/trunk/%{version}/+download/%{name}-%{version}.tar.gz
 BuildRequires:	intltool
 BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	pkgconfig(gtk+-3.0)
